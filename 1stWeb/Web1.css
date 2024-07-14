@@ -1,0 +1,82 @@
+body {
+    background-color: #FFFFFF;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+}
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: rgb(255, 196, 0);
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+    
+}
+
+.logo {
+    font-size: 20px;
+    margin-right: auto;
+    color:black;
+}
+
+.header-link a {
+    text-decoration: none;
+    padding:8px;
+    color:#000;
+
+
+}
+
+/*hero part*/
+
+.hero {
+    display:flex;
+    background-color: rgb(255,196,0);
+    align-items: center;
+    justify-items: center;
+    padding: 9px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 400px;
+    margin-right: 300px;
+  
+
+}
+
+h1 {
+    font-size: 50px;
+    margin:0;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+}
+p {
+    font-family: 'Roboto', arial;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 70px;
+    border: none;
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 55px;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-image {
+    width: auto;
+    height: 20px;
+}
